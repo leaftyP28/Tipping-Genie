@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5FF2E5F92DFAB5AA00C7CABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF2E5E32DFAB5A700C7CABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF2E5EA2DFAB5A700C7CABE;
+			remoteInfo = "Tipping Calculator";
+		};
+		5FF2E6032DFAB5AA00C7CABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF2E5E32DFAB5A700C7CABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF2E5EA2DFAB5A700C7CABE;
+			remoteInfo = "Tipping Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF2E5EB2DFAB5A700C7CABE /* Tipping Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tipping Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF2E5F82DFAB5AA00C7CABE /* Tipping CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tipping CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF2E6022DFAB5AA00C7CABE /* Tipping CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tipping CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5FF2E5ED2DFAB5A700C7CABE /* Tipping Calculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tipping Calculator";
+			sourceTree = "<group>";
+		};
+		5FF2E5FB2DFAB5AA00C7CABE /* Tipping CalculatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tipping CalculatorTests";
+			sourceTree = "<group>";
+		};
+		5FF2E6052DFAB5AA00C7CABE /* Tipping CalculatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tipping CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF2E5E82DFAB5A700C7CABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF2E5F52DFAB5AA00C7CABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF2E5FF2DFAB5AA00C7CABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF2E5E22DFAB5A700C7CABE = {
+			isa = PBXGroup;
+			children = (
+				5FF2E5ED2DFAB5A700C7CABE /* Tipping Calculator */,
+				5FF2E5FB2DFAB5AA00C7CABE /* Tipping CalculatorTests */,
+				5FF2E6052DFAB5AA00C7CABE /* Tipping CalculatorUITests */,
+				5FF2E5EC2DFAB5A700C7CABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF2E5EC2DFAB5A700C7CABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF2E5EB2DFAB5A700C7CABE /* Tipping Calculator.app */,
+				5FF2E5F82DFAB5AA00C7CABE /* Tipping CalculatorTests.xctest */,
+				5FF2E6022DFAB5AA00C7CABE /* Tipping CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF2E5EA2DFAB5A700C7CABE /* Tipping Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF2E60C2DFAB5AA00C7CABE /* Build configuration list for PBXNativeTarget "Tipping Calculator" */;
+			buildPhases = (
+				5FF2E5E72DFAB5A700C7CABE /* Sources */,
+				5FF2E5E82DFAB5A700C7CABE /* Frameworks */,
+				5FF2E5E92DFAB5A700C7CABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5FF2E5ED2DFAB5A700C7CABE /* Tipping Calculator */,
+			);
+			name = "Tipping Calculator";
+			packageProductDependencies = (
+			);
+			productName = "Tipping Calculator";
+			productReference = 5FF2E5EB2DFAB5A700C7CABE /* Tipping Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF2E5F72DFAB5AA00C7CABE /* Tipping CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF2E60F2DFAB5AA00C7CABE /* Build configuration list for PBXNativeTarget "Tipping CalculatorTests" */;
+			buildPhases = (
+				5FF2E5F42DFAB5AA00C7CABE /* Sources */,
+				5FF2E5F52DFAB5AA00C7CABE /* Frameworks */,
+				5FF2E5F62DFAB5AA00C7CABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF2E5FA2DFAB5AA00C7CABE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5FF2E5FB2DFAB5AA00C7CABE /* Tipping CalculatorTests */,
+			);
+			name = "Tipping CalculatorTests";
+			packageProductDependencies = (
+			);
+			productName = "Tipping CalculatorTests";
+			productReference = 5FF2E5F82DFAB5AA00C7CABE /* Tipping CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FF2E6012DFAB5AA00C7CABE /* Tipping CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF2E6122DFAB5AA00C7CABE /* Build configuration list for PBXNativeTarget "Tipping CalculatorUITests" */;
+			buildPhases = (
+				5FF2E5FE2DFAB5AA00C7CABE /* Sources */,
+				5FF2E5FF2DFAB5AA00C7CABE /* Frameworks */,
+				5FF2E6002DFAB5AA00C7CABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF2E6042DFAB5AA00C7CABE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5FF2E6052DFAB5AA00C7CABE /* Tipping CalculatorUITests */,
+			);
+			name = "Tipping CalculatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tipping CalculatorUITests";
+			productReference = 5FF2E6022DFAB5AA00C7CABE /* Tipping CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF2E5E32DFAB5A700C7CABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5FF2E5EA2DFAB5A700C7CABE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5FF2E5F72DFAB5AA00C7CABE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5FF2E5EA2DFAB5A700C7CABE;
+					};
+					5FF2E6012DFAB5AA00C7CABE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5FF2E5EA2DFAB5A700C7CABE;
+					};
+				};
+			};
+			buildConfigurationList = 5FF2E5E62DFAB5A700C7CABE /* Build configuration list for PBXProject "Tipping Calculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF2E5E22DFAB5A700C7CABE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5FF2E5EC2DFAB5A700C7CABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF2E5EA2DFAB5A700C7CABE /* Tipping Calculator */,
+				5FF2E5F72DFAB5AA00C7CABE /* Tipping CalculatorTests */,
+				5FF2E6012DFAB5AA00C7CABE /* Tipping CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF2E5E92DFAB5A700C7CABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF2E5F62DFAB5AA00C7CABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF2E6002DFAB5AA00C7CABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF2E5E72DFAB5A700C7CABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF2E5F42DFAB5AA00C7CABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF2E5FE2DFAB5AA00C7CABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF2E5FA2DFAB5AA00C7CABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF2E5EA2DFAB5A700C7CABE /* Tipping Calculator */;
+			targetProxy = 5FF2E5F92DFAB5AA00C7CABE /* PBXContainerItemProxy */;
+		};
+		5FF2E6042DFAB5AA00C7CABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF2E5EA2DFAB5A700C7CABE /* Tipping Calculator */;
+			targetProxy = 5FF2E6032DFAB5AA00C7CABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FF2E60A2DFAB5AA00C7CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF2E60B2DFAB5AA00C7CABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF2E60D2DFAB5AA00C7CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S28MMV92QL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carmen.Tipping-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF2E60E2DFAB5AA00C7CABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S28MMV92QL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carmen.Tipping-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FF2E6102DFAB5AA00C7CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carmen.Tipping-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipping Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tipping Calculator";
+			};
+			name = Debug;
+		};
+		5FF2E6112DFAB5AA00C7CABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carmen.Tipping-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipping Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tipping Calculator";
+			};
+			name = Release;
+		};
+		5FF2E6132DFAB5AA00C7CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carmen.Tipping-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tipping Calculator";
+			};
+			name = Debug;
+		};
+		5FF2E6142DFAB5AA00C7CABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Carmen.Tipping-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tipping Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF2E5E62DFAB5A700C7CABE /* Build configuration list for PBXProject "Tipping Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF2E60A2DFAB5AA00C7CABE /* Debug */,
+				5FF2E60B2DFAB5AA00C7CABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF2E60C2DFAB5AA00C7CABE /* Build configuration list for PBXNativeTarget "Tipping Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF2E60D2DFAB5AA00C7CABE /* Debug */,
+				5FF2E60E2DFAB5AA00C7CABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF2E60F2DFAB5AA00C7CABE /* Build configuration list for PBXNativeTarget "Tipping CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF2E6102DFAB5AA00C7CABE /* Debug */,
+				5FF2E6112DFAB5AA00C7CABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF2E6122DFAB5AA00C7CABE /* Build configuration list for PBXNativeTarget "Tipping CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF2E6132DFAB5AA00C7CABE /* Debug */,
+				5FF2E6142DFAB5AA00C7CABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF2E5E32DFAB5A700C7CABE /* Project object */;
+}
