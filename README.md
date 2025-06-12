@@ -1,6 +1,6 @@
 # 💸 Tipping Genie – An iOS Swift App Made Easy
 
-This is created as a clean and beginner-friendly iOS app built with SwiftUI that calculates tips and displays totals at various percentages (15%, 18%, 20%, 25%, or a custom %), with the option to include New York state sales tax (8.875%). Useful for easy tipping when the check comes and making sure restaurants are not double tipping 😞😞😞
+This is a clean and beginner-friendly iOS app built with SwiftUI that calculates tips and displays totals at various percentages (15%, 18%, 20%, 25%, or a custom %), with the option to include New York state sales tax (8.875%). Useful for easy tipping when the check comes and making sure restaurants are not double tipping 😞😞😞
 
 ## 🚀 Features
 - 💰 Enter your total amount spent before taxes and all other fees
@@ -13,7 +13,7 @@ This is created as a clean and beginner-friendly iOS app built with SwiftUI that
   * Tested on iPhone 16 Pro Max simulator ✅
 
 ## 📸 Screenshots
-Refer to screenshots provided
+Refer to the screenshots provided
 
 ## 🛠️ Built With
 - Swift
